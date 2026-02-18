@@ -38,4 +38,4 @@ This project implements a turn-based game on an `N x N` board. The user and comp
 ```bash
 git clone https://github.com/majddakhoul/String-of-Os.git
 
-2.Compile and run
+2. Compile and run
