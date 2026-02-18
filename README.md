@@ -2,13 +2,9 @@
 
 A simple console-based game called *String of Os* where a user plays against the computer using a Minimax AI algorithm.
 
----
-
 ## Description
 
 This project implements a turn-based game on an `N x N` board. The user and computer take turns placing 'O' on the board. The first player to complete a full row, column, or diagonal of 'O's loses the game. The computer uses a Minimax algorithm with depth-limited search to make decisions.
-
----
 
 ## Features
 
@@ -39,21 +35,15 @@ This project implements a turn-based game on an `N x N` board. The user and comp
   - Board updates are printed to the console
   - Game announces the winner
 
----
-
 ## Installation
 
 1. Clone the repository
 2. Open the project in any Java IDE (IntelliJ, Eclipse, NetBeans).
 3. Compile all .java files.
 
----
-
 ## How to Run
 
   - Run the GamePlay.java main method.
-
----
 
 ## How AI Works
 
@@ -66,23 +56,17 @@ The AI uses the Minimax algorithm:
   - `eval(1)` for user perspective
 - Depth-limited search ensures performance while allowing strategic decisions
 
----
-
 ## File Structure
 
 - `GamePlay.java` – Main loop and Minimax AI integration
 - `State.java` – Represents board state and move logic
 - `Board_Eval.java` – Wrapper for Minimax evaluation
 
----
-
 ## Customization
 
 - **Board Size**: Modify in `State.java` constructor (`State board = new State(3);`)
 - **AI Depth**: Adjust `dep` variable in `GamePlay.java` (`private int dep = 3;`)
 - **Symbols**: Modify `play()` and `eval()` in `State.java` to change player/AI symbols
-
----
 
 ## Notes
 
@@ -91,16 +75,10 @@ The AI uses the Minimax algorithm:
 - Single human player vs computer AI.
 - No automatic draw detection (can be implemented).
 
----
-
 ## Contributions
 
 Contributions are welcome! Fork the project, submit issues, or create pull requests to improve AI logic, add features, or fix bugs.
 
----
-
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
----
