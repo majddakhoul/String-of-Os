@@ -33,9 +33,5 @@ This project implements a turn-based game on an `N x N` board. The user and comp
 
 ## How to Run
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/majddakhoul/String-of-Os.git
-
+1. Clone the repository
 2. Compile and run
