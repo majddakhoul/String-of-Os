@@ -27,18 +27,6 @@ This project implements a turn-based game on an `N x N` board. The user and comp
 - **State**: Represents the board state and provides methods for move generation, evaluation, and checking loss conditions.  
 - **Board_Eval**: Stores a board state with its evaluation value for the Minimax algorithm.
 
-## Example
-
-   1 | 2 | 3 | 4 | 5
-   ................
-1: O |   |   |   |  
-2:   |   |   |   |  
-3:   |   |   |   |  
-4:   |   |   |   |  
-5:   |   |   |   |  
-Enter row: 1
-Enter column: 1
-
 ## Requirements
 
 - Java 8 or higher.
